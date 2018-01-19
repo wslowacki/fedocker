@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form class="mail" name="mail" onsubmit="sendMail(event)">
+    <label for="sender" 
+           class="mail__label"
+    >
+      <span>Sender</span>
+      <input type="email" 
+      name="sender" 
+      class="mail__input" />
+    </label>
+    <label for="title" 
+           class="mail__label"
+    >
+      <span>Title</span>
+      <input type="text" 
+      name="title" 
+      class="mail__input" />
+    </label>
+    <label for="message" 
+           class="mail__label"
+    >
+      <span>Message</span>
+      <textarea
+      name="message" 
+      class="mail__input">
+      </textarea>
+    </label>
+    <button class="mail__submit" type="submit">Submit</button>
+  </form>
+  <script src="node_modules/axios/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "fedocker",
+  "version": "1.0.0",
+  "description": "FE for docker workshop",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wslowacki/fedocker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wslowacki/fedocker/issues"
+  },
+  "homepage": "https://github.com/wslowacki/fedocker#readme",
+  "dependencies": {
+    "axios": "^0.17.1"
+  }
+}
